@@ -38,6 +38,10 @@ namespace MorozCloudShare.Infrastructure.Auth
             {
                 await next(context);
             }
+            else if (context.Request.Path == "/api/v1/Auth")
+            {
+                await next(context);
+            }
             else
             {
                 context.Response.StatusCode = StatusCodes.Status403Forbidden;
