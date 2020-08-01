@@ -13,4 +13,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MorozCloudShare.Core\MorozCloudShare.Core.csproj" />
+    <ProjectReference Include="..\MorozCloudShare.Infrastructure\MorozCloudShare.Infrastructure.csproj" />
+    <ProjectReference Include="..\MorozCloudShare.StartupExtensions\MorozCloudShare.StartupExtensions.csproj" />
+  </ItemGroup>
+
 </Project>

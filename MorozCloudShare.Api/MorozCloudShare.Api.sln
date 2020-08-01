@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorozCloudShare.Api", "MorozCloudShare.Api\MorozCloudShare.Api.csproj", "{EA9D85EA-C79B-4E6E-81AA-33A0BAC1CE95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorozCloudShare.Core", "MorozCloudShare.Core\MorozCloudShare.Core.csproj", "{F969E05A-E8C7-4794-9AAA-73935C27D171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorozCloudShare.Infrastructure", "MorozCloudShare.Infrastructure\MorozCloudShare.Infrastructure.csproj", "{1CACEDC7-37F9-4CFF-8538-92C0538C13EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorozCloudShare.StartupExtensions", "MorozCloudShare.StartupExtensions\MorozCloudShare.StartupExtensions.csproj", "{D5289C27-6FB0-4759-969C-AFF8D112F8D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{EA9D85EA-C79B-4E6E-81AA-33A0BAC1CE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA9D85EA-C79B-4E6E-81AA-33A0BAC1CE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA9D85EA-C79B-4E6E-81AA-33A0BAC1CE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F969E05A-E8C7-4794-9AAA-73935C27D171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F969E05A-E8C7-4794-9AAA-73935C27D171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F969E05A-E8C7-4794-9AAA-73935C27D171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F969E05A-E8C7-4794-9AAA-73935C27D171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CACEDC7-37F9-4CFF-8538-92C0538C13EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CACEDC7-37F9-4CFF-8538-92C0538C13EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CACEDC7-37F9-4CFF-8538-92C0538C13EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CACEDC7-37F9-4CFF-8538-92C0538C13EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5289C27-6FB0-4759-969C-AFF8D112F8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5289C27-6FB0-4759-969C-AFF8D112F8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5289C27-6FB0-4759-969C-AFF8D112F8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5289C27-6FB0-4759-969C-AFF8D112F8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
